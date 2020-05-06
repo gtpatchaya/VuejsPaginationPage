@@ -1,12 +1,25 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <top-header></top-header>
+      <!-- <router-link to="/">News</router-link> |
+      <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+
+import TopHeader from '@/components/TopHeader.vue';
+
+export default {
+  components : 
+  {"top-header" : TopHeader}
+};
+</script>
+
+
 
 <style>
 #app {
