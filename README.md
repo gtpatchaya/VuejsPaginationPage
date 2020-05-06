@@ -1,5 +1,4 @@
-# hello-world
-
+# Vue Js Pagination Bootstrap
 ## Project setup
 ```
 npm install
